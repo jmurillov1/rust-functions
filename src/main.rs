@@ -1,5 +1,5 @@
-use std::{io, println};
-mod methods;
+use functions::fns;
+use std::io;
 
 fn main() {
     println!("Dame un número 1");
@@ -19,8 +19,8 @@ fn main() {
 
     println!("La suma: {:?}", sumar2(number1, number2));
 
-    let random_number = methods::sumar(number1, number2);
-    let guess = methods::get_random(random_number);
+    let random_number = fns::sumar(number1, number2);
+    let guess = fns::get_random_summary(random_number);
 
     println!("El valor de la suma: {:?}", random_number);
     println!("El numero es: {:?}", guess);
