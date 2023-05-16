@@ -11,5 +11,5 @@ pub fn get_random(number: i64) -> i64 {
         println!("Numero {:?}", random);
     }
 
-    random/number
+    random / number
 }
