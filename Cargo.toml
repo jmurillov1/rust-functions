@@ -7,8 +7,3 @@ version = "0.1.0"
 
 [dependencies]
 rand = "0.8.5"
-
-[profile.dev]
-debug = true
-debug-assertions = true
-overflow-checks = true
