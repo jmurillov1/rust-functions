@@ -15,9 +15,9 @@ fn main() {
     let number1: i64 = n1.trim().parse().unwrap();
     let number2: i64 = n2.trim().parse().unwrap();
 
-    let res = methods::sumar(number1, number2);
-    let guess = methods::get_random();
+    let random_number = methods::sumar(number1, number2);
+    let guess = methods::get_random(random_number);
 
-    println!("El valor de la suma: {:?}", res);
+    println!("El valor de la suma: {:?}", random_number);
     println!("El numero es: {:?}", guess);
 }
